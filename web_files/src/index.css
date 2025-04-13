@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+input, textarea {
+  @apply border-gray-300 focus:border-blue-500 focus:ring-blue-500;
+}
